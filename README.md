@@ -21,11 +21,11 @@ export GATK_JAR=/your/path/to/GenomeAnalysisTK.jar
 ```
 <br/>
 **Most common usage:**   
-Verifying concordance between two samples (tumor and normal)
+Verifying concordance between two samples (tumor and normal):
 ```  
 CONPAIR/scripts/verify_concordance.py -T TUMOR_pileup -N NORMAL_pileup
 ```  
-Estimating contamination level in both the tumor and the normal
+Estimating contamination level in both the tumor and the normal:
 ```
 CONPAIR/scripts/estimate_tumor_normal_contamination.py -T TUMOR_pileup -N NORMAL_pileup [-O OUTFILE]
 ```  
