@@ -9,7 +9,7 @@ ConPair is a fast and robust method dedicated for human tumor-normal studies to 
 
 **Required input files:** two bam files (tumor, normal)
 
-**Required software:** GATK 3.4, python 2.7
+**Required software:** GATK 2.3 or later, python 2.7
 
 # Manual
 
@@ -21,6 +21,11 @@ export GATK_JAR=/your/path/to/GenomeAnalysisTK.jar
 ```
 <br/>
 **Most common usage:**   
+To generate pileups (GATK required):
+```
+${CONPAIR_DIR}/scripts/run_gatk_pileup_for_sample.py -B TUMOR_bam -O TUMOR_pileup
+${CONPAIR_DIR}/scripts/run_gatk_pileup_for_sample.py -B NORMAL_bam -O NORMAL_pileup
+```
 Verifying concordance between two samples (tumor and normal):
 ```  
 ${CONPAIR_DIR}/scripts/verify_concordance.py -T TUMOR_pileup -N NORMAL_pileup
@@ -29,11 +34,7 @@ Estimating contamination level in both the tumor and the normal:
 ```
 ${CONPAIR_DIR}/scripts/estimate_tumor_normal_contamination.py -T TUMOR_pileup -N NORMAL_pileup [-O OUTFILE]
 ```  
-To generate pileups (GATK required):
-```
-${CONPAIR_DIR}/scripts/run_gatk_pileup_for_sample.py -B TUMOR_bam -O TUMOR_pileup
-${CONPAIR_DIR}/scripts/run_gatk_pileup_for_sample.py -B NORMAL_bam -O NORMAL_pileup
-```
+
 
 # Interpretation  
 **Concordance**  
