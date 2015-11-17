@@ -28,7 +28,7 @@ ${CONPAIR_DIR}/scripts/run_gatk_pileup_for_sample.py -B NORMAL_bam -O NORMAL_pil
 ```
 Verifying concordance between two samples (tumor and normal):
 ```  
-${CONPAIR_DIR}/scripts/verify_concordance.py -T TUMOR_pileup -N NORMAL_pileup
+${CONPAIR_DIR}/scripts/verify_concordance.py -T TUMOR_pileup -N NORMAL_pileup [-O OUTFILE]
 ```  
 Estimating contamination level in both the tumor and the normal:
 ```
