@@ -5,7 +5,7 @@ FOR ACADEMIC AND NON-COMMERCIAL RESEARCH PURPOSES ONLY
 
 This Agreement is made between the New York Genome Center, Inc. with a principal
 address at 101 Avenue of the Americas, New York, NY 10013 (“NYGC”) and the user
-of taxMaps (“LICENSEE”) and is effective at the date the downloading of taxMaps
+of Conpair (“LICENSEE”) and is effective at the date the downloading of Conpair
 (the “PROGRAM”) is completed. Downloading this software constitutes acceptance
 of these conditions.
 
@@ -36,8 +36,8 @@ parties hereto agree as follows:
 identified function of the PROGRAM.
 
 1.2 “PROGRAM” shall mean copyright in the object code and source code known as
-taxMaps and related documentation, if any, as they exist on the EFFECTIVE DATE
-and can be downloaded from https://github.com/nygenome/taxmaps on the EFFECTIVE
+Conpair and related documentation, if any, as they exist on the EFFECTIVE DATE
+and can be downloaded from https://github.com/egrabowska/ConPair on the EFFECTIVE
 DATE.
 
 
@@ -80,8 +80,8 @@ royalty-free rights to sublicense and/or distribute. Such modifications and BUG
 FIXES shall be provided to NYGC promptly upon their creation. LICENSEE further
 agrees to cite its use of the PROGRAM in any publication as follows:
 
-André Corvelo, taxMaps. New York Genome Center
-(https://github.com/nygenome/taxmaps) 
+Ewa A Grabowska, Conpair. New York Genome Center
+(https://github.com/egrabowska/ConPair) 
 
 
 
@@ -101,7 +101,7 @@ LICENSEE agrees to include appropriate attribution if any results obtained from
 use of the PROGRAM are included in any publication.
 
 Copyright 2014 New York Genome Center
-Notice of attribution: The taxMaps program was made available through the
+Notice of attribution: The Conpair program was made available through the
 generosity of the New York Genome Center
 
 LICENSEE shall not use any trademark or trade name of NYGC, or any variation,
