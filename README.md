@@ -9,7 +9,7 @@ Conpair is a fast and robust method dedicated for human tumor-normal studies to 
 
 **Required input files:** two bam files (tumor, normal)
 
-**Required software:** GATK 2.3 or later, python 2.7, scipy, java
+**Required software:** GATK 2.3 or later, python 2.7, scipy, numpy, java
 
 # Manual
 
